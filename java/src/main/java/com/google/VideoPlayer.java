@@ -355,6 +355,19 @@ public class VideoPlayer {
   }
 
   public void allowVideo(String videoId) {
-    System.out.println("allowVideo needs implementation");
+    Video toAllow = videoLibrary.getVideo(videoId);
+
+    if (toAllow == null) {
+      System.out.println("Cannot remove flag from video: Video does not exist");
+      return;
+    }
+
+    if (!toAllow.isFlagged()) {
+      System.out.println("Cannot remove flag from video: Video is not flagged");
+      return;
+    }
+
+    toAllow.setFlaggedReason(null);
+    System.out.println("Successfully removed flag from video: " + toAllow.getTitle());
   }
 }
