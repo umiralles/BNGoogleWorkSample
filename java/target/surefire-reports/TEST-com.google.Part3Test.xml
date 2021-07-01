@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.google.Part3Test" time="0.365" tests="9" errors="0" skipped="0" failures="9">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/umm/Documents/google-code-sample/java/target/test-classes:/home/umm/Documents/google-code-sample/java/target/classes:/home/umm/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/home/umm/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/umm/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/umm/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/umm/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/umm/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/home/umm/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/umm/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/umm/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/umm/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/umm/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/umm/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/umm/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/umm/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/umm/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/umm/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/home/umm/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/home/umm/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/home/umm/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/home/umm/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/umm/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/home/umm/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/umm/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:/home/umm/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:/home/umm/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/umm/Documents/google-code-sample/java/target/surefire/surefirebooter15264433034841927817.jar /home/umm/Documents/google-code-sample/java/target/surefire 2021-06-30T14-49-29_394-jvmRun1 surefire14788957255299282540tmp surefire_04351425151634290266tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/umm/Documents/google-code-sample/java/target/test-classes:/home/umm/Documents/google-code-sample/java/target/classes:/home/umm/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/home/umm/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/home/umm/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/home/umm/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/home/umm/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/home/umm/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/home/umm/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/home/umm/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/home/umm/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/home/umm/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/home/umm/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/home/umm/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/umm/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/home/umm/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/umm/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/umm/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/umm/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/home/umm/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/home/umm/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/home/umm/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:/home/umm/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/home/umm/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/umm/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/home/umm/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/umm/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:/home/umm/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:/home/umm/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/umm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/umm/Documents/google-code-sample/java"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/umm/Documents/google-code-sample/java/target/surefire/surefirebooter15264433034841927817.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="user.name" value="umm"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-72-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/umm/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="/home/umm/Documents/google-code-sample/java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.11+9-Ubuntu-0ubuntu2.20.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testSearchVideosNoResults" classname="com.google.Part3Test" time="0.068">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: a string containing "No search results for blah"
+     but: was "searchVideos needs implementation
+"
+	at com.google.Part3Test.testSearchVideosNoResults(Part3Test.java:92)
+]]></failure>
+  </testcase>
+  <testcase name="testSearchVideosWithNoAnswer" classname="com.google.Part3Test" time="0.035">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+searchVideos needs implementation
+ ==> expected: <5> but was: <1>
+	at com.google.Part3Test.testSearchVideosWithNoAnswer(Part3Test.java:19)
+]]></failure>
+  </testcase>
+  <testcase name="testSearchVideosWithTagAnswerOutOfBounds" classname="com.google.Part3Test" time="0.025">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+searchVideosWithTag needs implementation
+ ==> expected: <5> but was: <1>
+	at com.google.Part3Test.testSearchVideosWithTagAnswerOutOfBounds(Part3Test.java:140)
+]]></failure>
+  </testcase>
+  <testcase name="testSearchVideosAndPlayAnswer" classname="com.google.Part3Test" time="0.018">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+searchVideos needs implementation
+ ==> expected: <6> but was: <1>
+	at com.google.Part3Test.testSearchVideosAndPlayAnswer(Part3Test.java:38)
+]]></failure>
+  </testcase>
+  <testcase name="testSearchVideosWithTagPlayAnswer" classname="com.google.Part3Test" time="0.003">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+searchVideosWithTag needs implementation
+ ==> expected: <6> but was: <1>
+	at com.google.Part3Test.testSearchVideosWithTagPlayAnswer(Part3Test.java:121)
+]]></failure>
+  </testcase>
+  <testcase name="testSearchVideosInvalidNumber" classname="com.google.Part3Test" time="0.016">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+searchVideos needs implementation
+ ==> expected: <5> but was: <1>
+	at com.google.Part3Test.testSearchVideosInvalidNumber(Part3Test.java:76)
+]]></failure>
+  </testcase>
+  <testcase name="testSearchVideosWithTagNoResults" classname="com.google.Part3Test" time="0.01">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expected: a string containing "No search results for #blah"
+     but: was "searchVideosWithTag needs implementation
+"
+	at com.google.Part3Test.testSearchVideosWithTagNoResults(Part3Test.java:156)
+]]></failure>
+  </testcase>
+  <testcase name="testSearchVideosWithTagNoAnswer" classname="com.google.Part3Test" time="0.004">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+searchVideosWithTag needs implementation
+ ==> expected: <5> but was: <1>
+	at com.google.Part3Test.testSearchVideosWithTagNoAnswer(Part3Test.java:102)
+]]></failure>
+  </testcase>
+  <testcase name="testSearchVideosAnswerOutOfBounds" classname="com.google.Part3Test" time="0.007">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+searchVideos needs implementation
+ ==> expected: <5> but was: <1>
+	at com.google.Part3Test.testSearchVideosAnswerOutOfBounds(Part3Test.java:57)
+]]></failure>
+  </testcase>
+</testsuite>
